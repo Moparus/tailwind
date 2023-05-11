@@ -1,0 +1,23 @@
+1.Stworzeine pliku index.php / index.html
+2.Wpisanie komend w terminalu:
+    >> npm install -D tailwindcss
+    >> npx tailwindcss init
+3.Zmiana content w pliku tailwind.config.js
+    content: ["./*.{html,js,php}"],
+4.Stworzenie pliku input.css:
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+5.Stworzenie pliku style.css
+*6.Wpisanie komendy starowej w terminalu:
+    npx tailwindcss -i input.css -o style.css --watch
+7.Dodanie linku do styli w pliku index.php / index.html:
+    <link href="style.css" rel="stylesheet">
+8.Koniec :D
+
+* - wpisywać za każdym razem chęci włączenia projektu
+
+Przykładowy kod:
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+</h1>
